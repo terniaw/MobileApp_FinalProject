@@ -10,7 +10,7 @@
 
 
 .galleryView .item {
-  min-height: 216.6666666666667px; /*650, for main menu thingy*/
+  min-height: 240px; /*650, for main menu thingy*/
   padding-top: 55px; }
   .galleryView .item .icon:before 
   {

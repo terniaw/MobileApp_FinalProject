@@ -362,20 +362,16 @@ window.queries = [
                 title: "FITTED\u2122"
             },
             {
-                color: "#3DBEC9",
-				title: "Add Clothes"
+                color: "#3DBEC9", //"ff6347"
+				title: "My Closet"
             },
             {
-                color: "#5AD863",
-                title: "Get Outfit"
+                color: "#ff6347",
+                title: "Add Clothes"
             },
             {
                 color: "#F8E548",
-                title: "My Closet"
-            },
-            {
-                color: "#D86B67",
-                title: "Settings"
+                title: "Get Outfit"
             }
         ];
 
@@ -383,7 +379,7 @@ window.queries = [
             ionic.Platform.exitApp();
         };
 
-        $ionicPopover.fromTemplateUrl('templates/modals/popover.html', {
+        /*$ionicPopover.fromTemplateUrl('templates/modals/popover.html', {
             scope: $scope
         }).then(function (popover) {
             $scope.popover = popover;
@@ -395,7 +391,7 @@ window.queries = [
         
         $scope.$on('$destroy', function() {
             $scope.popover.remove();
-        });
+        });*/
     }
 })();
 (function() {
